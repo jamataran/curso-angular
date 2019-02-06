@@ -1,10 +1,8 @@
 "use strict";
 maxValue(1, 2);
-
 function maxValue(value1, value2) {
     return Math.max(value1, value2);
 }
-
 // DEFINICIÓN DE TIPOS
 // Boolean
 var nombreVariable = false;
@@ -27,12 +25,10 @@ var Color;
     Color[Color["Black"] = 3] = "Black";
 })(Color || (Color = {}));
 Color.Black;
-
 //void
 function alerta() {
     alert('hola');
 }
-
 // Null
 var u = null;
 // Undefined.
